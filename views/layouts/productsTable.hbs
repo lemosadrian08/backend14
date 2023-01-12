@@ -1,0 +1,28 @@
+<h3 class="text-primary"> Products </h3><br>
+{{#if products.length}}
+    <div class="table-responsive">
+        <table class="table table-dark">
+            <tr class="text-warning">
+                <th class="font-weight-bold">Title</th>
+                <th class="font-weight-bold">Price</th>
+                <th class="font-weight-bold">Thumbnail</th>
+            </tr>
+            {{#each products}}
+                <tr>
+                    <td>
+                        {{this.title}}
+                    </td>
+                    <td>
+                        {{this.price}}
+                    </td>
+                    <td>
+                        {{this.thumbnail}}
+                    </td>
+                </tr>
+            {{/each}}            
+        </table>
+    </div>
+{{else}}
+    <h3 class="alert alert-danger">Data not found</h1>
+{{/if}}
+    

@@ -1,0 +1,6 @@
+2023-01-08T16:41:26.504Z [[33mwarn[39m] => [33m127.0.0.1 - there's no place like home[39m
+2023-01-08T16:41:26.507Z [[31merror[39m] => [31m127.0.0.1 - there's no place like home[39m
+2023-01-08T16:41:26.508Z [[33mwarn[39m] => [33m127.0.0.1 - there's no place like home[39m
+2023-01-08T16:41:26.509Z [[31merror[39m] => [31m127.0.0.1 - there's no place like home[39m
+2023-01-08T17:45:01.975Z [[33mwarn[39m] => [33mNonexistent Route: GET => /dge[39m
+2023-01-08T19:18:24.020Z [[33mwarn[39m] => [33mThe route dosen't exist: GET => /dge[39m
